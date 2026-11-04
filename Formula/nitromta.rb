@@ -1,28 +1,28 @@
 class Nitromta < Formula
   desc "Self-hosted mail delivery engine that speaks the Amazon SES v2 API"
   homepage "https://nitromta.com"
-  version "0.1.6"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/nitrosend/nitromta/releases/download/v0.1.6/nitromta-0.1.6-aarch64-macos.tar.gz"
-      sha256 "d5744f466dad93c637b82e42fd3bf84162221ae750255c078b31bfe5fac0d815"
+      url "https://github.com/nitrosend/nitromta/releases/download/v0.2.0/nitromta-0.2.0-aarch64-macos.tar.gz"
+      sha256 "30f473ca59e026619ecbe6c31323dc3ca6c39713f5392537b3bce09cee74922c"
     end
     on_intel do
-      url "https://github.com/nitrosend/nitromta/releases/download/v0.1.6/nitromta-0.1.6-x86_64-macos.tar.gz"
-      sha256 "41fc072f70660539fd143f5c2b97d07d36f5f66b12edd2dfd7eaf444e6bac1d6"
+      url "https://github.com/nitrosend/nitromta/releases/download/v0.2.0/nitromta-0.2.0-x86_64-macos.tar.gz"
+      sha256 "cb3c5b82d7ff3671a6d5b78ce32d767021553f617c8b522e022ec0716fe76aaa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nitrosend/nitromta/releases/download/v0.1.6/nitromta-0.1.6-aarch64-linux.tar.gz"
-      sha256 "88ee2a22a25561fcbddc857bfc9dae4deabbf261b5171b246c15a647cf921bdc"
+      url "https://github.com/nitrosend/nitromta/releases/download/v0.2.0/nitromta-0.2.0-aarch64-linux.tar.gz"
+      sha256 "22f4bd7a118488eda2f6a394b95b7b0274ecdc13bcb672f2bb90f1f21fe4d459"
     end
     on_intel do
-      url "https://github.com/nitrosend/nitromta/releases/download/v0.1.6/nitromta-0.1.6-x86_64-linux.tar.gz"
-      sha256 "fe77b3099badd749d185e211c7978654e26da077b69b9eba6fea72aa4b976966"
+      url "https://github.com/nitrosend/nitromta/releases/download/v0.2.0/nitromta-0.2.0-x86_64-linux.tar.gz"
+      sha256 "4263591cd6f295296c7fb567c4cd95b80f3e915d0edecb82f451519cd463f390"
     end
   end
 
